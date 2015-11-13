@@ -192,7 +192,7 @@
 				<key>name</key>
 				<string>Predicate Function</string>
 				<key>scope</key>
-				<string>entity.name.function.predicate</string>
+				<string>entity.name.function.predicate, entity.other.attribute-name.jsx, entity.name.tag.jsx, punctuation.definition.tag.begin.jsx, punctuation.definition.tag.end.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
