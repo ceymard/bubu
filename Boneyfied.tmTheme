@@ -192,7 +192,33 @@
 				<key>name</key>
 				<string>Predicate Function</string>
 				<key>scope</key>
-				<string>entity.name.function.predicate, entity.other.attribute-name.jsx, entity.name.tag.jsx, punctuation.definition.tag.begin.jsx, punctuation.definition.tag.end.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
+				<string>entity.name.function.predicate</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A5DF93</string>
+					<key>background</key>
+					<string>#A5DF930a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSX Entities</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.jsx, punctuation.definition.tag.begin.jsx, punctuation.definition.tag.end.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx, string.quoted.jsx, keyword.operator.assignment.jsx</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A5DF93A0</string>
+					<key>background</key>
+					<string>#A5DF930a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSX Entities (Darker)</string>
+				<key>scope</key>
+				<string>entity.name.tag.jsx</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
