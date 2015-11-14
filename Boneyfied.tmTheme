@@ -177,9 +177,22 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>Labels d'objet</string>
+				<key>scope</key>
+				<string>string.unquoted.label</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#DBBFEDa0</string>
+					<key>background</key>
+					<string>#DBBFED0a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>Misc Function</string>
 				<key>scope</key>
-				<string>string.unquoted.label, entity.name.function.misc</string>
+				<string>entity.name.function.misc</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -210,6 +223,19 @@
 				<dict>
 					<key>foreground</key>
 					<string>#A5DF93A0</string>
+					<key>background</key>
+					<string>#A5DF930a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSX code</string>
+				<key>scope</key>
+				<string>meta.embedded.expression.jsx</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7AC0EDA0</string>
 					<key>background</key>
 					<string>#A5DF930a</string>
 				</dict>
