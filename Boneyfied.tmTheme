@@ -187,9 +187,9 @@
 					<key>fontStyle</key>
 					<string/>
 					<key>foreground</key>
-					<string>#22ff99a0</string>
+					<string>#22ffcea0</string>
 					<key>background</key>
-					<string>#22ff9905</string>
+					<string>#22ffce05</string>
 				</dict>
 			</dict>
 			<dict>
@@ -248,11 +248,24 @@
 				<key>name</key>
 				<string>JSX Entities</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.jsx, punctuation.definition.tag.begin.jsx, punctuation.definition.tag.end.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx, string.quoted.jsx, keyword.operator.assignment.jsx</string>
+				<string>entity.other.attribute-name.jsx, punctuation.definition.tag.begin.jsx, punctuation.definition.tag.end.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx, keyword.operator.assignment.jsx</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#A5DF93A0</string>
+					<string>#A5DF9390</string>
+					<key>background</key>
+					<string>#A5DF930a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSX Strings</string>
+				<key>scope</key>
+				<string>string.quoted.jsx</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A5DF93E0</string>
 					<key>background</key>
 					<string>#A5DF930a</string>
 				</dict>
