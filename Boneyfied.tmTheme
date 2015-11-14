@@ -151,15 +151,30 @@
 				<key>name</key>
 				<string>Function Name</string>
 				<key>scope</key>
-				<string>entity.name.method, entity.name.function</string>
+				<string>entity.name.method, entity.name.function, storage.type.function.arrow.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#22ff99f7</string>
+					<key>background</key>
+					<string>#22ff9912</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Function Parameters</string>
+				<key>scope</key>
+				<string>variable.parameter.function.js</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
 					<string/>
 					<key>foreground</key>
-					<string>#22ff99f7</string>
+					<string>#22ff99C5</string>
 					<key>background</key>
-					<string>#22ff9912</string>
+					<string>#22ff9905</string>
 				</dict>
 			</dict>
 			<dict>
